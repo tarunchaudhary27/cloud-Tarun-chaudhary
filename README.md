@@ -164,3 +164,14 @@ Week 6: Data tracking setup using Amazon CloudWatch.
 Week 7: Implementation of data protection measures.
 Week 8: Documentation and evaluation of the statistics quality control framework.
 
+![b6](https://github.com/user-attachments/assets/e5c01450-5ee4-48ac-821b-a8cc3048958c)
+![c1](https://github.com/user-attachments/assets/56ffaaac-c2c4-4c51-8550-048a458b62f6)
+![c2](https://github.com/user-attachments/assets/4eeed689-bebb-4662-8c62-970db76bca94)
+![c3](https://github.com/user-attachments/assets/ca9bd540-5cbc-4443-bf7b-ebc57957edcf)
+![c4](https://github.com/user-attachments/assets/7d93f778-c6b7-4f75-824c-c6a7a9e433cd)
+![c5](https://github.com/user-attachments/assets/42d6d562-5b46-46d1-ba7a-5a63ea403c16)
+![b1](https://github.com/user-attachments/assets/c414be70-3a41-4883-86a6-f470a2831fa9)
+![b2](https://github.com/user-attachments/assets/5bed0103-441d-4bf1-8a78-c0071a40ec84)
+![b3](https://github.com/user-attachments/assets/3e0fb8e1-18ba-4c32-8988-1b4310e7fc2e)
+![b4](https://github.com/user-attachments/assets/04c53c53-d3d6-43de-9540-f74b5e5ae1c4)
+![WhatsApp Image 2025-03-27 at 9 41 36 AM](https://github.com/user-attachments/assets/f716e327-4f1d-40cd-bcba-c618e84c62e9)
