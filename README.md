@@ -1,4 +1,3 @@
-
 Descriptive Analysis of City of Vancouver’s Public Washrooms
 Project Description
 This project focuses on designing and implementing a data analytics platform for the City of Vancouver. It especially addresses the need for descriptive analysis of public washroom information to offer insights for city planning and aid allocation.
@@ -163,4 +162,5 @@ Weeks 3-4: Data cleansing and transformation using AWS Glue DataBrew.
 Week five: Data validation using AWS Glue and Amazon Athena.
 Week 6: Data tracking setup using Amazon CloudWatch.
 Week 7: Implementation of data protection measures.
-
+Week 8: Documentation and evaluation of the statistics quality control framework.
+![image](https://github.com/user-attachments/assets/1cfddb3a-8ab9-46f0-bbad-d02d3c3422fd)
