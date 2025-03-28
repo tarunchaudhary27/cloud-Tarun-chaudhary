@@ -163,4 +163,4 @@ Week five: Data validation using AWS Glue and Amazon Athena.
 Week 6: Data tracking setup using Amazon CloudWatch.
 Week 7: Implementation of data protection measures.
 Week 8: Documentation and evaluation of the statistics quality control framework.
-![image](https://github.com/user-attachments/assets/1cfddb3a-8ab9-46f0-bbad-d02d3c3422fd)
+
