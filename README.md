@@ -1,19 +1,27 @@
-Descriptive Analysis of City of Vancouver’s Public Washrooms
+# Descriptive Analysis of City of Vancouver’s Public Washrooms
 Project Description
+
 This project focuses on designing and implementing a data analytics platform for the City of Vancouver. It especially addresses the need for descriptive analysis of public washroom information to offer insights for city planning and aid allocation.
 Project Title
+
 AWS Data Analytic Platform for The City of Vancouver - Descriptive Analysis of Public Washrooms
+
 Objective
+
 The objective is to design and put into effect a data analytic platform the usage of AWS services to support descriptive analysis of the City of Vancouver's public washroom records.  This involves a chain of steps to ingest, profile, clean, catalog, and summarize the data, in the end supplying valuable insights for the town.
 Dataset
 The dataset used for this analysis is the City of Vancouver's public washroom data, provided in CSV format (public_washroom.csv)
+
 Methodology
+
 This section provides information on the steps undertaken to research the data.
 Data Extraction: The record was sourced from Vancouver’s Open Data platform.
 Data Ingestion: The public washroom data, available in CSV layout, changed into ingested into an Amazon S3 bucket named “vancity-pbwashroom-raw-tarun”. This step affords scalable and flexible data processing, sharing, archiving, control, and analysis solutions.
 Data Cleaning and Profiling: AWS Glue DataBrew is used to profile the "public washrooms" dataset within the "vancity-pbwashroom-trf-tarun" S3 bucket to apprehend its schema and data characteristics. The dataset includes one hundred and five rows of string information.  No missing values or duplicates were observed.  Subsequently, the dataset was cleaned using AWS Glue DataBrew, with the project named “vancity-pbwashroom-prj-tarun”.  Cleaning involved steps which include renaming, separating, and reordering the information to enhance readability and put together it for in additional analysis.
 Descriptive Statistics: The file mentions calculating descriptive data as part of the information summarisation process and the count of washrooms per location.
+
 Data Exploration and Analysis: 
+
 Data exploration and evaluation involved examining the clean and summarized data to extract significant insights.
 ●	Analysing the distribution of public washrooms throughout unique geographical regions of Vancouver.
 ●	Identifying areas with a high or low density of public washrooms.
@@ -33,14 +41,18 @@ The project deliverables include:
 ●	Summarized data, providing key descriptive statistics.
 ●	Descriptive analysis of the public washroom facts, including insights and traits related to distribution, accessibility, and protection.
 ●	A cost estimate for the AWS resources used within the assignment.
+
 Recommendations:
+
 Optimize washroom distribution based on location utilization: Analyze the summarized facts to perceive locations with high public washroom utilization and recommend optimizing the distribution of centers to meet demand. Prioritize regions with excessive foot traffic, tourist pastime, or confined existing centers.
 Improve accessibility in key regions: Based at the evaluation of accessibility data, suggest particular locations wherein accessibility enhancements are needed. Prioritize regions with high utilization or in which accessibility is currently restrained.
 Enhance renovation schedules primarily based on utilization patterns: Analyze the data to discover tendencies in washroom utilization and endorse adjusting maintenance schedules hence. Increase protection frequency in high-utilization regions to make sure cleanliness and hygiene.
 Integrate user feedback for service improvement: Explore integrating user comments facts (e.g., rankings, evaluations) with the existing dataset to advantage insights into consumer pleasure and discover areas for provider development. Develop a machine for gathering and analyzing person remarks.
 Allocate resources for excessive-demand centers: Use the analysis to tell resource allocation choices, prioritizing investment and staff for the preservation and improvement of excessive-call for public washrooms.
 Data Wrangling for City of Vancouver’s Public Washrooms
+
 Project Description
+
 This project specializes in data wrangling of the City of Vancouver's public washroom data to ensure its accuracy, consistency, and usability for subsequent analysis and urban planning functions. The assignment utilises AWS gear to easily rework and prepare the dataset.
 Project Title
 Data Wrangling of City of Vancouver's public washroom data.
@@ -53,7 +65,9 @@ The project utilizes the City of Vancouver’s public washroom dataset. Key attr
 ●	Location records (e.g., address, coordinates).
 ●	Accessibility information (e.g., wheelchair available, hours of operation).
 ●	Maintenance statistics (e.g., cleaning schedules).
+
 Methodology
+
 This phase information the steps worried in wrangling the general public washroom information.
 Data Collection: This step involves acquiring the general public washroom information from the City of Vancouver's open records portal.
 Data Ingestion: The raw dataset is ingested into an Amazon S3 bucket (vancity-pbwashroom-raw-tarun) for a centralized and secure storage
@@ -90,10 +104,14 @@ Tools and Technologies
 ●	AWS Glue DataBrew: For statistics evaluation, cleaning, and transformation.
 ●	AWS Glue: For facts consolidation and ETL procedures.
 ●	IAM: For access control and security.
+
 Deliverables
+
 ●	A cleaned and converted dataset is stored in an appropriate layout.
 ●	Documentation of the records wrangling technique, together with cleansing steps and alterations carried out.
+'
 Timeline
+
 A distinct timeline for the data wrangling undertaking, outlining the duration of every stage:
 Week 1: Data intake and storage configuration on Amazon S3.
 Week 2: Data evaluation using AWS Glue DataBrew.
@@ -142,6 +160,7 @@ Phase V: Data Monitoring
 Phase VI: Data Protection
 ●	Implement security features with the use of IAM and KMS.
 ●	Control access to data and encrypt data at rest and in transit.
+
 Tools and Technologies
 Amazon S3: For storing raw and processed records.
 AWS Glue DataBrew: This is used to profile and cleanse the data.
@@ -150,6 +169,7 @@ Amazon Athena: For querying and validating data.
 Amazon CloudWatch: For monitoring data quality and pipeline performance.
 IAM (Identity and Access Management): For secure access control.
 KMS (Key Management Service): For data encryption.
+
 Deliverables
 ●	A clean and validated dataset stored in Amazon S3.
 ●	A data quality report detailing the metrics and any troubles identified.
